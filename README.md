@@ -1,81 +1,86 @@
 <div align="center">
 
-# 👂 Xiaoer Omon · 小耳万物阅读器
+<img src="https://raw.githubusercontent.com/Jane-xiaoer/xiaoer-omon-app/main/icon.png" width="96" alt="Omon">
+
+# Xiaoer Omon · 小耳万物
 
 ### Open Anything · AI 时代，打开一切
 
-**纯本地的「万能阅读器」——什么文件都能 ① 打开 ② 转格式 ③ 改内容。不只是文本，图片 / 音频 / 视频 / 几十种代码文件都能直接打开。**
+**The universal, on-device file reader for macOS — open, convert & edit almost anything.**
+**纯本地的 macOS 万能阅读器——什么文件都能①打开②转格式③改内容。**
 
-[![下载最新内测版](https://img.shields.io/badge/⬇_下载最新内测版-DMG-7BC043?style=for-the-badge)](https://github.com/Jane-xiaoer/xiaoer-omon-app/releases/latest)
+[![Download](https://img.shields.io/badge/⬇_Download_·_下载-DMG-7BC043?style=for-the-badge)](https://github.com/Jane-xiaoer/xiaoer-omon-app/releases/latest)
+&nbsp;
+[![macOS](https://img.shields.io/badge/macOS-Apple_Silicon-1d1d1f?style=for-the-badge)](#-requirements--系统要求)
+
+*100% local · nothing uploaded · 纯本地运行，不联网、不上传你的文件*
 
 </div>
 
 ---
 
-## 这是什么
+## What is Omon · 这是什么
 
-Omon 是一个 macOS 桌面 app，一个窗口搞定几乎所有文件：
+**EN** — Omon is one quiet window that handles almost every file. Documents, e-books, images, audio, video, and dozens of code & config files all open instantly — and you can convert formats and edit in place, without leaving the app. Everything runs on your Mac; your files never leave it.
 
-- **看（万能打开）**：不只是文本（下列每个都已在 app 内逐个实测打开）——
-  - 📄 **文档**：Markdown · 纯文本(.txt) · HTML · Word(.docx) · PDF · PowerPoint(.pptx) · Excel(.xlsx/.xls)
-  - 📖 **电子书**：EPUB（含封面/插图/多章真实书籍，衬线阅读排版）
-  - 🖼 **图像**：PNG · JPG · GIF · WebP · SVG(矢量) · BMP · ICO · TIFF / TIF（9 种已逐个实测）
-  - 🎬 **视频**：MP4 · MOV · M4V · WebM（app 内窗口播放，编解码跟随你的 macOS）
-  - 🎵 **音频**：MP3 · WAV · M4A · AAC · FLAC · OGG（同上，跟随系统编解码器）
-  - 💻 **代码 & 数据**（几十种，自动语法高亮）：JS/TS · Python · Rust · Go · Java · C/C++ · Swift · PHP · Ruby · SQL · Shell · Vue/Svelte · JSON/YAML/TOML/XML/CSV · Dockerfile/Makefile/CMake · LaTeX…
-- **转（Save As 选后缀）**：Word/HTML/MD/PDF 互转、Excel→CSV/JSON、PDF→文字/图片、图片互转……
-- **改（就地编辑）**：Markdown 所见即所得、代码、HTML、Word/Excel/PPT 就地改字
+**中文** — Omon 是一个安静的窗口，几乎什么文件都能搞定。文档、电子书、图片、音频、视频、几十种代码与配置文件都能秒开——还能转格式、就地改内容，全程不离开 app。所有处理都在你本机，文件绝不外传。
 
-暖纸底 + 极简界面，内容优先，零导航。
-
-> **产品哲学**：*Observe More, Organize Naturally*（看见更多，自然整理）—— 这也是 Omon 名字的由来。
+| | |
+|---|---|
+| 👁 **See / 看** | Open anything · 万能打开（双击 / 拖入 / 侧栏） |
+| 🔄 **Convert / 转** | Save As → other formats · 选后缀即转换 |
+| ✍️ **Edit / 改** | Edit in place, Save = copy · 就地改字、另存 |
+| 🌏 **Bilingual / 双语** | 中文 / English，⚙ 一键切换 |
+| 🔒 **Private / 私密** | Fully local, no network · 纯本地、不联网 |
 
 ---
 
-## 📥 安装（内测版，3 步）
+## What it opens · 能打开什么
 
-> ⚠️ **这是内部测试版，还没做苹果公证**，所以第一次打开 macOS 会拦你。按下面做一次就好，之后正常双击。
+> Every format below was tested by actually opening it in Omon · 下列每个格式都在 app 里逐个实测打开过。
 
-**第 1 步 · 下载**
-点上面绿色按钮，或去 [Releases](https://github.com/Jane-xiaoer/xiaoer-omon-app/releases/latest) 下载 `Xiaoer-Omon-x.x.x-internal.dmg`。
+| Category 类 | Formats 格式 |
+|---|---|
+| 📄 **Documents 文档** | Markdown · Plain text (.txt) · HTML · Word (.docx) · PDF · PowerPoint (.pptx) · Excel (.xlsx / .xls) |
+| 📖 **E-books 电子书** | **EPUB** (cover / illustrations / chapters · 封面/插图/多章) |
+| 🖼 **Images 图像** | PNG · JPG · GIF · WebP · SVG · BMP · ICO · TIFF / TIF |
+| 🎬 **Video 视频** | MP4 · MOV · M4V · WebM |
+| 🎵 **Audio 音频** | MP3 · WAV · M4A · AAC · FLAC · OGG |
+| 💻 **Code & data 代码 & 数据** | JS / TS · Python · Rust · Go · Java · C / C++ · Swift · SQL · JSON / YAML / XML / CSV / TOML · Dockerfile … (dozens, syntax-highlighted · 几十种，语法高亮) + any plain-text file |
 
-**第 2 步 · 拖进应用程序**
-双击打开 DMG → 把 **Xiaoer Omon** 拖到 **Applications** 文件夹。
-
-**第 3 步 · 首次打开（绕过拦截，任选一种）**
-
-- **方法 A（最简单）**：在「应用程序」里**右键点 Xiaoer Omon → 打开 → 再点「打开」**。
-- **方法 B（macOS 比较新、方法 A 没有「打开」按钮时）**：双击一次（会被拦）→ 打开**系统设置 → 隐私与安全性** → 拉到最下面，会看到"已阻止 Xiaoer Omon" → 点**「仍要打开」**。
-- **方法 C（最稳，懂终端的话）**：打开「终端」粘贴这一行回车，然后正常双击：
-  ```bash
-  xattr -dr com.apple.quarantine "/Applications/Xiaoer Omon.app"
-  ```
-
-做完一次，以后就是普通双击启动。✅
-
-> 💡 **为什么要这一步？** 因为内测版是"未签名/未公证"的。等正式版做了苹果开发者签名+公证，下载下来直接双击就能开，不用任何绕过。
+*Video & audio play through your system, so codec support follows your macOS version. · 视频音频走系统播放器，编解码跟随你的 macOS 版本。*
 
 ---
 
-## 🧪 内测想收集什么反馈
+## Install · 安装
 
-- 打开各种文件**有没有打不开 / 乱码 / 空白**的
-- 转格式（Save As）出来的**产物对不对**（尤其 PDF、Word、Excel）
-- 改字、保存（覆盖原件 / 另存）顺不顺
-- 缩放 +/− 有没有黑屏、双滚动条、糊
-- 任何"我以为它会 XX 结果它 YY"的地方
+> ⚠️ This is an internal test build, not yet Apple-notarized — macOS blocks it the first time. Do this once. · 内测版尚未做苹果公证，首次打开会被拦，按下面做一次即可。
 
-**反馈方式**：直接发 [Issues](https://github.com/Jane-xiaoer/xiaoer-omon-app/issues) 或私聊小耳，**带上文件类型 + 截图**最好。
+1. **Download · 下载** — grab `Xiaoer-Omon-x.x.x.dmg` from [Releases](https://github.com/Jane-xiaoer/xiaoer-omon-app/releases/latest).
+2. **Drag to Applications · 拖进应用程序** — open the DMG, drag **Xiaoer Omon** to **Applications**.
+3. **First launch · 首次打开**（任选一种 · pick one）:
+   - **A** — Right-click the app → **Open** → **Open**. · 右键 App →「打开」→「打开」。
+   - **B** — If A has no Open button: **System Settings → Privacy & Security**, scroll down → **Open Anyway**. · 系统设置 → 隐私与安全性 → 拉到底「仍要打开」。
+   - **C** — Terminal: `xattr -dr com.apple.quarantine "/Applications/Xiaoer Omon.app"` then double-click.
+
+After that, just double-click. The official notarized build won't need any of this. · 之后正常双击即可；正式公证版无需任何操作。
 
 ---
 
-## 系统要求
+## Requirements · 系统要求
 
-- macOS（Apple Silicon / M 系列芯片）
-- 纯本地运行，不联网、不上传你的文件
+- macOS, **Apple Silicon** (M-series). · macOS，Apple 芯片。
+- Runs fully offline; never uploads your files. · 纯本地运行，不上传任何文件。
+
+---
+
+## Feedback · 反馈
+
+Found a file that won't open, or a conversion that looks wrong? Open an [Issue](https://github.com/Jane-xiaoer/xiaoer-omon-app/issues) with the file type + a screenshot, or message 小耳. · 有打不开的文件或转换不对，发 Issue（带文件类型+截图）或私聊小耳。
 
 ---
 
 <div align="center">
-<sub>Observe More, Organize Naturally · 由小耳打造 👂</sub>
+<sub><b>Observe More, Organize Naturally</b> · 看见更多，自然整理</sub><br>
+<sub>by 小耳 · by Xiaoer</sub>
 </div>
