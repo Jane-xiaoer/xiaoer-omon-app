@@ -2,7 +2,9 @@
 
 # 👂 Xiaoer Omon · 小耳万物阅读器
 
-**纯本地的「万能阅读器」——什么文件都能 ① 打开 ② 转格式 ③ 改内容。**
+### Open Anything · AI 时代，打开一切
+
+**纯本地的「万能阅读器」——什么文件都能 ① 打开 ② 转格式 ③ 改内容。不只是文本，图片 / 音频 / 视频 / 几十种代码文件都能直接打开。**
 
 [![下载最新内测版](https://img.shields.io/badge/⬇_下载最新内测版-DMG-7BC043?style=for-the-badge)](https://github.com/Jane-xiaoer/xiaoer-omon-app/releases/latest)
 
@@ -14,11 +16,18 @@
 
 Omon 是一个 macOS 桌面 app，一个窗口搞定几乎所有文件：
 
-- **看**：Markdown / 文本代码 / HTML / Word(docx) / 老 .doc / Excel / PPT / PDF / 图片 / SVG / 音视频
-- **转**：Word/HTML/MD/PDF 互转、Excel→CSV/JSON、PDF→文字/图片、图片互转……（Save As 选后缀）
-- **改**：Markdown 所见即所得、代码、HTML、Word/Excel/PPT 就地改字
+- **看（万能打开）**：不只是文本——
+  - 📄 **文档**：Markdown · 纯文本 · HTML · Word(.docx) · PDF · PowerPoint(.pptx) · Excel(.xlsx/.xls)
+  - 🖼 **图像**：PNG · JPG · GIF · WebP · SVG(矢量) · BMP · ICO
+  - 🎬 **视频**：MP4 · MOV · WebM · M4V（内置播放）
+  - 🎵 **音频**：MP3 · WAV · M4A · AAC · FLAC · OGG
+  - 💻 **代码 & 数据**（几十种，自动语法高亮）：JS/TS · Python · Rust · Go · Java · C/C++ · Swift · PHP · Ruby · SQL · Shell · Vue/Svelte · JSON/YAML/TOML/XML/CSV · Dockerfile/Makefile/CMake · LaTeX…
+- **转（Save As 选后缀）**：Word/HTML/MD/PDF 互转、Excel→CSV/JSON、PDF→文字/图片、图片互转……
+- **改（就地编辑）**：Markdown 所见即所得、代码、HTML、Word/Excel/PPT 就地改字
 
 暖纸底 + 极简界面，内容优先，零导航。
+
+> **产品哲学**：*Observe More, Organize Naturally*（看见更多，自然整理）—— 这也是 Omon 名字的由来。
 
 ---
 
