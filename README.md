@@ -18,9 +18,9 @@ Omon 是一个 macOS 桌面 app，一个窗口搞定几乎所有文件：
 
 - **看（万能打开）**：不只是文本——
   - 📄 **文档**：Markdown · 纯文本 · HTML · Word(.docx) · PDF · PowerPoint(.pptx) · Excel(.xlsx/.xls)
-  - 🖼 **图像**：PNG · JPG · GIF · WebP · SVG(矢量) · BMP · ICO
-  - 🎬 **视频**：MP4 · MOV · WebM · M4V（内置播放）
-  - 🎵 **音频**：MP3 · WAV · M4A · AAC · FLAC · OGG
+  - 🖼 **图像**：PNG · JPG · GIF · WebP · SVG(矢量) · BMP · ICO · TIFF（8 种已实测真解码）
+  - 🎬 **视频**：MP4 · MOV · M4V · WebM（app 内窗口播放，编解码跟随你的 macOS）
+  - 🎵 **音频**：MP3 · WAV · M4A · AAC · FLAC · OGG（同上，跟随系统编解码器）
   - 💻 **代码 & 数据**（几十种，自动语法高亮）：JS/TS · Python · Rust · Go · Java · C/C++ · Swift · PHP · Ruby · SQL · Shell · Vue/Svelte · JSON/YAML/TOML/XML/CSV · Dockerfile/Makefile/CMake · LaTeX…
 - **转（Save As 选后缀）**：Word/HTML/MD/PDF 互转、Excel→CSV/JSON、PDF→文字/图片、图片互转……
 - **改（就地编辑）**：Markdown 所见即所得、代码、HTML、Word/Excel/PPT 就地改字
