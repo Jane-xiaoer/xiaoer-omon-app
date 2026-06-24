@@ -1,0 +1,30 @@
+name: 反馈 · Feedback
+description: 报告打不开的文件 / 提想要的功能 · Report a file that won't open or request a feature
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 类型 · Type
+      options:
+        - 🐛 遇到的问题 · Bug
+        - 💡 想要的功能 · Feature request
+        - 🗣️ 其它 · Other
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: 哪个文件 / 格式？· Which file or format?
+      placeholder: "例：某个 .pptx 打不开 / a .heic won't open"
+  - type: input
+    id: env
+    attributes:
+      label: Mac 芯片 + 系统版本 · Chip + macOS version
+      placeholder: "例：Apple M2 · macOS 15  /  Intel · macOS 13"
+  - type: textarea
+    id: detail
+    attributes:
+      label: 详细描述（欢迎附截图）· Details (screenshots welcome)
+    validations:
+      required: true
